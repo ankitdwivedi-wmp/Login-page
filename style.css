@@ -1,0 +1,64 @@
+body{
+    background: rgb(35,36,0);
+    background: linear-gradient(90deg, rgba(35,36,0,0.6502976190476191) 23%, rgba(210,17,17,1) 60%, rgba(0,212,255,1) 100%);
+
+}
+.container {
+    background-color: white;
+    border-radius: 2rem;
+    text-align: center;
+    width: 50vh; 
+    margin: 10rem auto;
+    height: 50vh;
+}
+
+#heading{
+    font-size: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.main-container div{
+    margin: 3%;
+}
+.main-container label{
+    font-size: 200%;
+}
+.main-container input {
+    font-size: 2rem;
+    border-radius: 0.5rem; 
+    margin-bottom: 2rem;
+    max-width: 100%;
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+}
+
+.main-container input:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    outline: none; 
+}
+
+.main-container input::placeholder {
+    color: #aaa;
+    font-size: 1.8rem; 
+}
+.main-container button{
+    font-size: 2rem;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-container button:hover {
+    background-color: #45a049;
+}
+
